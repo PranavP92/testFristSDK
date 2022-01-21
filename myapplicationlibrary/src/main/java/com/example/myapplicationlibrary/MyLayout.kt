@@ -8,6 +8,7 @@ import java.util.ArrayList
 
 class MyLayout(context: Context?) : RelativeLayout(context) {
 
+
     override fun addView(child: View?) {
         super.addView(child)
     }

@@ -1,12 +1,13 @@
 package com.example.myapplicationlibrary
 
 import android.content.Context
+import android.util.AttributeSet
 import android.view.View
 import android.view.animation.Animation
 import android.widget.RelativeLayout
 import java.util.ArrayList
 
-class MyLayout(context: Context?) : RelativeLayout(context) {
+class MyLayout(context: Context?, attrs: AttributeSet?) : RelativeLayout(context, attrs) {
 
 
     override fun addView(child: View?) {

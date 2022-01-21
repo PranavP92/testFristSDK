@@ -1,10 +1,11 @@
 package com.example.myapplicationlibrary
 
 import android.content.Context
+import android.util.AttributeSet
 import android.view.animation.Animation
 import com.google.android.material.textfield.TextInputEditText
 
-class MyEditTextView(context: Context) : TextInputEditText(context) {
+class MyEditTextView(context: Context, attrs: AttributeSet?) : TextInputEditText(context, attrs) {
 
     override fun setTextColor(color: Int) {
         super.setTextColor(color)

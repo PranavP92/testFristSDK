@@ -23,4 +23,8 @@ class MyLayout(context: Context?) : RelativeLayout(context) {
     override fun setAnimation(animation: Animation?) {
         super.setAnimation(animation)
     }
+
+    override fun setBackgroundColor(color: Int) {
+        super.setBackgroundColor(color)
+    }
 }

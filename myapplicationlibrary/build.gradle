@@ -49,7 +49,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.PranavP92'
                 artifactId = 'testFristSDK'
-                version = '1.0.4'
+                version = '1.0.5'
             }
         }
     }
